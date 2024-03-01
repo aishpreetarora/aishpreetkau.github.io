@@ -1,0 +1,80 @@
+/**
+* @name: Assignment1
+* @Course Code: SODV1201
+* @class: Software Development Diploma program.
+**/
+/* Resetting default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Setting a base font size and family */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333; /* Setting text color to black */
+    padding-bottom: 60px; /* Adding padding to accommodate footer */
+}
+
+/* Styling header */
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling header links */
+header a {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none; /* Remove underline from links */
+    cursor: pointer;
+}
+
+header a:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+/* Styling image */
+img#picture {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto; /* Ensure image scales proportionally */
+    border-radius: 5px; /* Add a slight border radius to the image */
+}
+
+/* Styling name */
+h3#name {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    color: #333; /* Name color */
+}
+
+/* Styling paragraphs */
+p {
+    margin-bottom: 15px;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+/* Styling footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

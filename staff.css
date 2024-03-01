@@ -1,0 +1,65 @@
+/**
+* @name: Assignment1
+* @Course Code: SODV1201
+* @class: Software Development Diploma program.
+**/
+/* Resetting default browser styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    padding-bottom: 60px; /* Adding padding to accommodate footer */
+}
+
+/* Styling header */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff; /* Changing heading color to a shade of blue */
+}
+
+/* Styling staff list container */
+#staff-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+
+/* Styling individual employee cards */
+.employee {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Adding box shadow for a subtle effect */
+}
+
+/* Styling buttons */
+button {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: black;; /* Changing button background color to match heading */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: red; /* Darkening button color on hover */
+}
+
+/* Styling footer */
+footer {
+    color: black; /* Changing footer text color to black */
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ddd; /* Changing footer background color to a light gray */
+}
